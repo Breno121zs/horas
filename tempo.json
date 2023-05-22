@@ -1,0 +1,6 @@
+{
+    "function": "tempo",
+    "code": "const dynamicDate = new Date();\nresponse.json({\n  date: dynamicDate.toGMTString()\n});",
+    "export": "default"
+}
+  
